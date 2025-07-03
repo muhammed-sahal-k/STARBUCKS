@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>starbucks coffee company</title>
+    <link rel="shortcut icon" href="/images/starbucks logo.png" type="image/x-icon">
+    <style>
+        .home {
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+
+        .gift {
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+
+        .order {
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+
+        .pay {
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+
+        .store {
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+
+        .logo {
+            display: flex;
+            justify-content: space-between;
+            width: 500px;
+        }
+
+        .home:hover {
+            border-bottom: 2px solid;
+            color: green;
+        }
+
+        .gift:hover {
+            border-bottom: 2px solid;
+            color: green;
+        }
+
+        .order:hover {
+            border-bottom: 2px solid;
+            color: green;
+        }
+
+        .pay:hover {
+            border-bottom: 2px solid;
+            color: green;
+        }
+
+        .store:hover {
+            border-bottom: 2px solid;
+            color: green;
+        }
+
+        .search {
+            display: flex;
+        }
+
+        .up {
+            display: flex;
+            justify-content: space-between;
+            margin-left: 130px;
+            margin-right: 130px;
+            padding-top: 15px;
+            padding-bottom: 20px;
+
+        }
+
+
+        .reward {
+            font-size: 20px;
+        }
+
+        .green {
+            display: flex;
+            border: 2px solid;
+            padding-top: 20px;
+            padding-bottom: 25px;
+            background-color: rgb(1, 41, 41);
+
+        }
+
+        .butt {
+            padding-left: 980px;
+        }
+
+        .reward {
+            padding-left: 135px;
+            color: white;
+        }
+
+        .sweet {
+            display: flex;
+
+            padding-top: 10px;
+            margin-left: 130px;
+            margin-right: 130px;
+            margin-top: 70px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+            border-radius: 8px;
+            background-image: url(/images/coffee\ color.jpeg);
+            background-size: cover;
+        }
+
+        .blonde {
+            padding-top: 15px;
+            padding-left: 50px;
+
+
+        }
+
+        .know {
+            margin-top: 130px;
+            margin-right: 30px;
+            margin-left: 500px;
+            width: 200px;
+            border-radius: 50px;
+            height: 35px;
+            text-align: center;
+            padding-top: 15px;
+            background-color: teal;
+            color: white;
+        }
+
+        .left {
+            padding: 10px;
+            border-radius: 50px;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        }
+
+        .right {
+            background-color: white;
+            border-radius: 50px;
+            padding: 10px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        }
+
+        .slide {
+            display: flex;
+            justify-content: space-between;
+            margin-top: -110px;
+            margin-left: 110px;
+            margin-right: 110px;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .shot {
+            display: block;
+        }
+
+        .new {
+            display: block;
+            text-align: center;
+            padding-top: 5px;
+        }
+
+
+        .coffee {
+            display: block;
+        }
+
+        .seller {
+            display: block;
+            text-align: center;
+            padding-top: 5px;
+        }
+
+        .tea {
+            display: block;
+        }
+
+        .drinks {
+            display: block;
+            text-align: center;
+            padding-top: 5px;
+        }
+
+        .rice {
+            display: block;
+        }
+
+        .food {
+            display: block;
+            text-align: center;
+            padding-top: 5px;
+        }
+
+        .march {
+            display: block;
+        }
+
+        .is {
+            display: block;
+            text-align: center;
+            padding-top: 5px;
+        }
+
+        .very {
+            display: block;
+            text-align: center;
+            padding-top: 5px;
+        }
+
+        .house {
+            display: block;
+        }
+
+        .menus {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .miller {
+            display: block;
+            padding-left: 10px;
+        }
+
+        .chip {
+            padding-left: 8px;
+
+        }
+
+        .tall {
+            padding-left: 8px;
+            font-size: 10px;
+            color: darkslategrey;
+        }
+
+        .cash {
+            display: flex;
+            padding-top: 15px;
+        }
+
+        .fund {
+            display: block;
+        }
+
+        .barista {
+            display: flex;
+            padding-top: 15 px;
+            padding-left: 25px;
+            padding-bottom: 20px;
+            width: 390px;
+            border-radius: 10px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+            margin-left: 125px;
+            margin-top: 10px;
+            padding-top: 15px;
+            background-color: white;
+        }
+
+        .item {
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: 50px;
+            margin-top: 6px;
+            margin-left: 205px;
+            background-color: teal;
+            color: white;
+        }
+
+        .speicy {
+            display: flex;
+
+        }
+
+        .small {
+            display: flex;
+        }
+
+        .item:hover {
+            background-color: darkslategrey;
+        }
+
+        .wonder {
+            display: flex;
+            justify-content: space-between;
+            margin-left: 110px;
+        }
+
+        .freez {
+            display: flex;
+        }
+
+        .beauty {
+
+            padding-right: 50px;
+            color: teal;
+            margin-top: 20px;
+        }
+
+        .division {
+            background-color: whitesmoke;
+            padding-top: 10px;
+            padding-bottom: 70px;
+            margin-top: 120px;
+            margin-bottom: 40px;
+        }
+
+        .about {
+            display: flex;
+            justify-content: space-between;
+            margin-left: 110px;
+            margin-right: 110px;
+        }
+
+        .discover {
+            padding-top: 25px;
+            color: teal;
+        }
+
+        .culture {
+            font-size: 12px;
+            color: teal;
+            padding: 3px;
+            width: 75px;
+            margin-bottom: 150px;
+            background-color: white;
+            border-radius: 5px;
+        }
+
+        .perfect {
+            border: 2px solid;
+            width: 200px;
+            text-align: center;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            font-size: 15px;
+            border-radius: 50px;
+            margin-top: 50px;
+            background-color: white;
+        }
+
+        .last {
+            padding-top: 20px;
+            border-radius: 10px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+            padding-left: 30px;
+            margin-left: 125px;
+            padding-bottom: 30px;
+            margin-right: 125px;
+            margin-top: 20px;
+            background-image: url("../images/teaimg.jpg");
+           background-position: center;
+           background-repeat: no-repeat;
+           background-size: cover;
+        
+        }
+
+        .last:hover {
+            box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        }
+
+        .brew {
+            color: white;
+        }
+
+        .finish {
+            background-color: whitesmoke;
+            padding-bottom: 35px;
+
+        }
+
+        .position {
+            position: fixed;
+            width: 100%;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            text-align: center;
+
+        }
+
+        .rock {
+            padding-top: 80px;
+        }
+
+        .company {
+            padding-top: 20px;
+        }
+
+        .community {
+            padding-top: 20px;
+        }
+
+        .pass {
+            padding-top: 20px;
+        }
+
+        .ethical {
+            padding-top: 20px;
+        }
+
+        .environ {
+            padding-top: 20px;
+        }
+
+        .lays {
+            padding-top: 20px;
+        }
+
+        .fool {
+            padding-top: 20px;
+        }
+
+        .customer {
+            padding-top: 20px;
+        }
+
+        .delivery {
+            padding-top: 20px;
+        }
+
+        .loyel {
+            padding-top: 20px;
+        }
+
+        .nujoom {
+            padding-top: 20px;
+        }
+
+        .spl {
+            padding-top: 20px;
+        }
+
+        .bonus {
+            padding-top: 20px;
+        }
+
+        .phone {
+            padding-top: 20px;
+        }
+
+        .beverage {
+            padding-top: 20px;
+        }
+
+        .monsoon {
+            padding-top: 20px;
+        }
+
+        .lto {
+            padding-top: 20px;
+        }
+
+        .bottom {
+            display: flex;
+            justify-content: space-between;
+            padding-left: 120px;
+            padding-right: 450px;
+        }
+
+        .first {
+            padding-right: 70px;
+        }
+
+        .playstore {
+            display: block;
+        }
+
+        .social {
+            display: flex;
+            padding: 15px;
+        }
+
+        .poor {
+            display: block;
+        }
+
+        .car {
+            display: flex;
+            justify-content: space-between;
+            margin-left: 330px;
+            margin-right: 800px;
+            padding-top: 200px;
+        }
+
+        .peek {
+            display: flex;
+        }
+
+        .a {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .b {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .c {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .veed {
+            font-size: 10px;
+            padding-top: 5px;
+        }
+
+        .books {
+            display: flex;
+            padding-top: 10px;
+            justify-content: space-between;
+            margin-left: 120px;
+            margin-right: 120px;
+
+        }
+
+        .darkgreen {
+            background-color: rgb(1, 41, 41);
+            margin-top: 160px;
+            padding-bottom: 50px;
+            color: white;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="menu">
+            <div class="position">
+                <div class="up">
+                    <div class="logo"> <img src="/images/starbucks logo.png" alt="img" style="width: 40px;">
+                        <span class="home"><a href="https://www.starbucks.in/dashboard"
+                                style="text-decoration: black; color: black;">Home</a></span>
+                        <span class="gift"><a href="https://www.starbucks.in/giftcards"
+                                style="text-decoration: black; color: black;">Gift</a></span>
+                        <span class="order"><a href="https://www.starbucks.in/ordering"
+                                style="text-decoration: black; color: black;">Order</a></span>
+                        <span class="pay">Pay</span>
+                        <span class="store"><a href="https://www.starbucks.in/store-locator"
+                                style="text-decoration: black; color: black;">Store</a></span>
+                    </div>
+                    <div class="search"><span class="somthing">
+                            <form action="">
+                                <label for="search"></label>
+                                <input type="text" placeholder="🔍 looking for somthing specific?"
+                                    style="width: 250px; height: 35px; border-radius: 50px; border: 0; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; text-align: center;">
+                        </span>
+                        <span class="profile"> <a href="https://www.starbucks.in/profile"><img
+                                    src="/images/profile img.png" alt="image"
+                                    style="width: 40px;margin-bottom: -15px; padding-left: 100px;"></a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rock">
+            <div class="green"><span class="reward">Starbucks Reward</spaan>
+                    <span class="butt"><a href="https://www.starbucks.in/rewards"><button
+                                style="padding-left: 12px; padding-right: 12px; padding-bottom: 7px;padding-top: 7px; border-radius: 50px; background-color: rgb(1, 41, 41); color: white;border: 1px solid white;"><b>Know
+                                    More</b></button></a></span></div>
+        </div>
+    </nav>
+
+    <div class="sweet">
+        <span class="cup"><img src="/images/cupcofee img.png" alt="img" style="width: 100px;"></span>
+        <span class="blonde"> New
+            <h2><b>Try the blonde roast!</b></h2>
+            Bright, sweet citrus notes and a smooth bodymakes this a classic.
+        </span>
+        <span class="know"><a href="https://www.starbucks.in/dashboard/banner-detail"
+                style="text-decoration: white;color: white;">Know More</a></span>
+    </div>
+    <div class="slide"><span class="left"><img src="/images/left side.png" alt="img" style="width: 20px;"></span>
+        <span class="right"><img src="/images/right sideee.png" alt="img" style="width: 20px;"></span>
+
+    </div>
+    <h2 style="padding-top: 150px; padding-left: 135px; color:  rgb(1, 41, 41);"><b>Handcrafted Curations</b></h2>
+    <div class="menus">
+        <div class="screen"><span class="shot"><a href="https://www.starbucks.in/ordering"><img
+                        src="../images/bascket.svg" alt="image"
+                        style="width: 100px;height:100px; border-radius: 50%;object-fit: cover;"></a></span>
+            <span class="new"><b>New</b></span>
+        </div>
+        <div class="bestseller"><span class="coffee"><a href="https://www.starbucks.in/ordering"><img
+                        src="/images/coffee img.webp" alt="image" style="width: 100px; border-radius: 50%;"></a></span>
+            <span class="seller"><b>Bestseller</b></span>
+        </div>
+        <div class="taste"><span class="tea"><a href="https://www.starbucks.in/ordering"><img
+                        src="/images/drinks img.webp" alt="image" style="width: 100px; border-radius: 50%; "></a></span>
+            <span class="drinks"><b>Drinks</b></span>
+        </div>
+        <div class="mandhi"><span class="rice"><a href="https://www.starbucks.in/ordering"><img
+                        src="/images/Food img.jpg" alt="image" style="width: 100px; border-radius: 50%;"></a></span>
+            <span class="food"><b>Food</b></span>
+        </div>
+
+        <div class="water"><span class="march"><a href="https://www.starbucks.in/ordering"><img
+                        src="/images/merchandiese img.webp" alt="image"
+                        style="width: 100px; border-radius: 50%;"></a></span>
+            <span class="is"><b>Marchandise</b></span>
+        </div>
+        <div class="king"><span class="house"><a href="https://www.starbucks.in/ordering"><img
+                        src="/images/coffee at home img.webp" alt="image"
+                        style="width: 100px; border-radius: 50%;"></a></span>
+            <span class="very"><b>CoffeeAtHome</b></span>
+        </div>
+    </div>
+    <div class="division">
+        <div class="wonder">
+            <div class="recommends">
+                <h2 style=" color:  rgb(1, 41, 41);"><b>Barista Recommends</b></h2>
+            </div>
+            <div class="freez">
+                <div class="beauty"><a href="https://www.starbucks.in/ordering"
+                        style="text-decoration: teal; color: teal;"><b>View Menu</b></a></div>
+                <div class="grass"><img src="/images/grass.svg" alt="image" style="width: 60px;"></div>
+            </div>
+        </div>
+        <div class="barista">
+            <div class="fund">
+                <div class="small">
+                    <div class="chill"><img src="/images/coffee img.webp" alt="image"
+                            style="width: 80px;border-radius: 8px;"></div>
+                    <div class="miller"><img src="/images/Miller-Canola-Oil-1L-Other-3.png" alt="image"
+                            style="width: 35px;margin-bottom: -10px; margin-top: -5px;"><br>
+                        <span class="chip"><b>Java Chip Frappuccino</b></span><br>
+                        <span class="tall">TALL(354ml).392kcal</span>
+                    </div>
+                </div>
+                <div class="speicy">
+                    <div class="minus">
+                        <div class="cash"><span class="money"><img src="/images/download.png" alt="image"
+                                    style="width: 25px; margin-top: 2px;margin-right: -5px; margin-left: -6px;"></span><span
+                                class="four"><b>441.00</b></span>
+
+                        </div>
+                    </div>
+                    <div class="plus">
+                        <div class="item"><a href="https://www.starbucks.in/ordering/drinks/java-chip-frappuccino"
+                                style="text-decoration: white; color: white;"><b>Add Item</b></a></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="finish">
+        <div class="about">
+            <div class="world">
+                <h2 style=" color:  rgb(1, 41, 41);"><b>Learn more about the world of coffee!</b></h2>
+            </div>
+            <div class="discover"><b>Discover More</b></div>
+        </div>
+        <div class="last">
+            <div class="culture">Coffee Culture</div>
+            <div class="brew">
+                <h1>Art & Science Of Coffee Brewing</h1>
+                Master the perfect brew with starbucks! learn the art and science of coffee brewing.
+            </div>
+            <a href="https://www.starbucks.in/Blogs" style="text-decoration: white; color: black;">
+                <div class="perfect"><b>Learn More</b></div>
+            </a>
+        </div>
+    </div>
+    <div class="darkgreen">
+        <div class="bottom">
+            <div class="bucks"><img src="/images/starbucks logo.png" alt="image"
+                    style="padding-top: 20px; padding-right: 120px;"></div>
+            <div class="first">
+                <div class="heading">
+                    <h3>About Us</h3>
+                </div>
+                <div class="age">Our Heritage</div>
+                <div class="pass">Coffeehouse</div>
+                <div class="company">Our Company</div>
+            </div>
+            <div class="second">
+                <div class="response">
+                    <h3>Responsibility</h3>
+                </div>
+                <div class="divers">Diversity</div>
+                <div class="community">Community</div>
+                <div class="ethical">Ethical Sourcing</div>
+                <div class="environ">Environmental Stewardship</div>
+                <div class="lays">Learn More</div>
+            </div>
+            <div class="third">
+                <div class="quick">
+                    <h3>Quick Links</h3>
+                </div>
+                <div class="privacy">Privacy Policy</div>
+                <div class="fool">FAQs</div>
+                <div class="customer">Customer Service</div>
+                <div class="delivery">Delivery</div>
+                <div class="loyel">Loyalty Program Terms and <br> Conditions</div>
+                <div class="nujoom">Starbucks India Mobile App <br> Terms of Use</div>
+                <div class="spl">Special Discount 25% Off <br> Offer</div>
+                <div class="bonus">Get 2x Bonus Stars</div>
+                <div class="phone">Starbucks® Rewards Program</div>
+                <div class="beverage">Beverage Subscription</div>
+                <div class="monsoon">Monsoon Members Gift</div>
+                <div class="lto">Monsoon Menu LTO 10% Offer</div>
+            </div>
+            <div class="fourth">
+                <div class="legal">
+                    <h3>Legal</h3>
+                </div>
+                <div class="Disclaimer">Disclaimer</div>
+            </div>
+        </div>
+
+        <div class="car">
+            <div class="poor">
+                <div class="media">
+                    <h3">SOCIAL MEDIA</h3>
+                </div>
+                <div class="social">
+                    <div class="insta"><img src="/images/instagram.svg" alt="img"></div>
+                    <div class="face"><img src="/images/facebook.svg" alt=""></div>
+                    <div class="twitter"><img src="/images/twitter.svg" alt="img"></div>
+                </div>
+            </div>
+            <div class="playstore">
+                <div class="ios"><img src="/images/appstoreiOS.png" alt="image"></div>
+                <div class="android"><img src="/images/appstoreAndroid.png" alt="image"></div>
+            </div>
+        </div>
+        <hr style=" margin-left: 120px; margin-right: 120px; margin-top: 50px;">
+        <div class="books">
+            <div class="peek">
+                <div class="assess">Web Accessiblity</div>
+                <div class="a">|</div>
+                <div class="stool">Privacy Statement</div>
+                <div class="b">|</div>
+                <div class="usee">Terms of Use</div>
+                <div class="c">|</div>
+                <div class="chat">Contact Us</div>
+            </div>
+            <div class="veed">© 2025 Starbucks Coffee Company. All rights reserved.</div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
